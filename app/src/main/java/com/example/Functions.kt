@@ -19,3 +19,9 @@ fun withDefaultParameter(name: String = "Indra", age: Int) {
     println("== withDefaultParameter ==")
     println("Hello, $name! You are $age years old.") // Menampilkan pesan dengan nama default jika tidak diberikan
 }
+
+fun calculateArea(panjang: Int, lebar: Int) {
+    println()
+    println("== calculateArea ==")
+    println("Area: ${panjang * lebar}") // Menghitung dan menampilkan luas
+}
