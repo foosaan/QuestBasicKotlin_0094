@@ -5,9 +5,10 @@ class Motor()
 class Contact (val id: Int, var email: String)
 
 fun main(){
-    val contact = Contact(1, "aisfarisais1@gmail.com")
+    val contact = Contact(1, "Fosan01@gmail.com")
     println(contact.email)
-    contact.email = "abangais123@gmail.com"
+    contact.email = "kenro01@gmail.com"
 
     println(contact.email)
+
 }
