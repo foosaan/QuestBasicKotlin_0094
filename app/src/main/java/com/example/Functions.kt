@@ -25,3 +25,9 @@ fun calculateArea(panjang: Int, lebar: Int) {
     println("== calculateArea ==")
     println("Area: ${panjang * lebar}") // Menghitung dan menampilkan luas
 }
+fun main() {
+    withoutParameter() // Memanggil fungsi tanpa parameter
+    withParameter("John") // Memanggil fungsi dengan parameter
+    withNamedArgument(name = "John", age = 30) // Memanggil fungsi dengan argumen bernama
+    withDefaultParameter(age = 25) // Memanggil fungsi dengan parameter default untuk nama
+}
